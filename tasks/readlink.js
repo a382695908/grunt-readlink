@@ -85,7 +85,7 @@ module.exports = function(grunt) {
           var oldStrScript = page.substring(start + options.startTag.length, end);
           if(options.fileReplace){
             var scriptsOldArray = getScriptSrc(oldStrScript, options.fileRegexpl);
-            var scriptsMerge = options.fileReplace(scriptsOldArray, scriptsNewArray);
+            var scriptsMerge = options.fileReplace(scriptsOldArray, scriptsNewArray, dest);
             scripts = relativeFun(scriptsMerge, options);
             oldStrScript = "";
           }

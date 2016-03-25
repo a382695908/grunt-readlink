@@ -1,7 +1,7 @@
 {
   "name": "grunt-readlink",
   "description": "读取标签内的文件内容，或者根据正则来匹配",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/melot/readlink",
   "author": {
     "name": "aqiang",
